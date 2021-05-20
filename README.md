@@ -9,7 +9,7 @@ Para configurar você precisa de adicionar o codigo abaixo no seu server.lua e a
     end
 end)
 ```
-Apos isso você deve hospedar a auth.lua em modo raw em algum lugar eu recomendo e uso o pastebin.com mas na propria github.com da pra hospedar paginas em modo raw
+Apos isso você deve hospedar a auth.lua em modo raw em algum lugar eu recomendo e uso o pastebin.com mas na propria github.com da pra hospedar paginas em modo raw recomendo tambem em um lugar que seja facil a edição para sempre que quiser adicionar um novo ip na whitelist não precise de criar um novo repositório
 
 Depois de hospedar por exemplo no pastebin.com, voce deve colar a url no lugar indicado anteriormente
 
