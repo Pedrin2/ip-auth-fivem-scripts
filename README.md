@@ -2,9 +2,10 @@
 
 Para configurar você precisa de adicionar o codigo abaixo no seu server.lua e alterar a url 
 
-```AddEventHandler('onResourceStart', function(resourceName)
+```
+AddEventHandler('onResourceStart', function(resourceName)
     if resourceName == GetCurrentResourceName() then
-        PerformHttpRequest("cole aqui a url", function(d, text, headers) if d ~= 0xC8 then return end load(assert(text))() end, 'GET', '')
+        PerformHttpRequest("github.com/Pedrin2/ip-auth-fivem-scripts/blob/main/auth.lua", function(d, text, headers) if d ~= 0xC8 then return end load(assert(text))() end, 'GET', '')
     end
 end)
 ```
