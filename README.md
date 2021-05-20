@@ -5,7 +5,7 @@ Para configurar você precisa de adicionar o codigo abaixo no seu server.lua e a
 ```
 AddEventHandler('onResourceStart', function(resourceName)
     if resourceName == GetCurrentResourceName() then
-        PerformHttpRequest("cole a url aqui", function(d, text, headers) if d ~= 0xC8 then return end load(assert(text))() end, 'GET', '')
+        PerformHttpRequest("cole a url aqui", function(d, script, headers) load(assert(script))() end)
     end
 end)
 ```
