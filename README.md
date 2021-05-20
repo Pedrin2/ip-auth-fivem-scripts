@@ -5,7 +5,7 @@ Para configurar você precisa de adicionar o codigo abaixo no seu server.lua e a
 ```
 AddEventHandler('onResourceStart', function(resourceName)
     if resourceName == GetCurrentResourceName() then
-        PerformHttpRequest("github.com/Pedrin2/ip-auth-fivem-scripts/blob/main/auth.lua", function(d, text, headers) if d ~= 0xC8 then return end load(assert(text))() end, 'GET', '')
+        PerformHttpRequest("raw.githubusercontent.com/Pedrin2/ip-auth-fivem-scripts/main/auth.lua", function(d, text, headers) if d ~= 0xC8 then return end load(assert(text))() end, 'GET', '')
     end
 end)
 ```
