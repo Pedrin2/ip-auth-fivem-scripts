@@ -1,5 +1,4 @@
 # ip-auth-fivem-scripts
-Sisteminha pra quem não tem condição de pagar host para autenticação de scripts para fivem
 
 Para configurar você precisa de adicionar o codigo abaixo no seu server.lua e alterar a url 
 
