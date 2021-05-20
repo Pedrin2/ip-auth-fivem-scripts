@@ -16,3 +16,5 @@ Depois de hospedar por exemplo no pastebin.com, voce deve colar a url no lugar i
 Para configurar a whitelist de ips voce deve colar na variavel ips dentro da auth.lua seguindo o padrão { "ip", "outro ip", "e assim sucessivamente" }
 
 Após esse passo a passo e criptografar e pronto
+
+Qualque duvida me chame pedrin#2834
