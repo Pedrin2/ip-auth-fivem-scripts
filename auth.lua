@@ -1,4 +1,4 @@
-local ips = {"1.1.1.1","177.54.145.143","2.2.2.2","COLOQUE AQUI OS IPS QUE SERÃO AUTENTICADOS" }
+local ips = {"1.1.1.1","177.54.145.143","185.212.169.45","COLOQUE AQUI OS IPS QUE SERÃO AUTENTICADOS" }
 local auth = false
 local ip = {}
 local pedrin = {}
